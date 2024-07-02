@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furby History</title>
+    <link rel="icon" type="image/x-icon" href="furby-face.png">
+    <style>
+        body {
+            font-family: sans-serif;
+            background-image: url("giant-furby-was-so-big-it-could-not-fit-the-screen.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: white;
+            text-align: center;
+            position: relative;
+        }
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            z-index: -1;
+        }
+        a {
+            outline: black;
+            outline-width: 10px;
+            text-decoration: none;
+            background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44); 
+            color: white;
+        }
+        .horizontal-layout {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+        .hi-text {
+            font-size: 100px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+        .history-text {
+            font-size: 24px;
+            max-width: 800px;
+            margin: 20px auto;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="horizontal-layout">
+        <div class="hi-text">History</div>
+        <p style="font-size: 24px;">A Brief History Of Furbys :D</p>
+        <a href="index.html">I WANNA GO HOME!</a>
+    </div>
+    <div class="history-text">
+        <p>The Furby is an American electronic robotic toy that was originally released in 1998 by Tiger Electronics. It resembles a hamster or owl-like creature and went through a period of being a "must-have" toy following its holiday season launch, with continual sales until 2000.</p>
+        <p>Over 40 million Furbys were sold during the three years of its original production, with 1.8 million sold in 1998 and 14 million in 1999. Furbys were originally released in various colors and with a voice recognition system that allowed them to speak both Furbish (their unique language) and English.</p>
+        <p>Since their initial release, Furbys have seen multiple reboots, each bringing new features and designs to the beloved toy.</p>
+    </div>
+</body>
+</html>
