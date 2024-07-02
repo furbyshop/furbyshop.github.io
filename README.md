@@ -1,2 +1,2 @@
 # furbyshop.github.io
-FurbyShop
+Cool website about furbys!
